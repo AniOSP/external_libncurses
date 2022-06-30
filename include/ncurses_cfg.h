@@ -59,10 +59,6 @@
 #endif
 #define HAVE_LONG_FILE_NAMES 1
 #define MIXEDCASE_FILENAMES 1
-#define HAVE_GPM_H 1
-#define HAVE_LIBDL 1
-#define LIBGPM_SONAME "libgpm.so.2"
-#define HAVE_LIBGPM 1
 #define TERMINFO_DIRS "/system_ext/etc/terminfo"
 #define TERMINFO "/system_ext/etc/terminfo"
 #define HAVE_BIG_CORE 1
