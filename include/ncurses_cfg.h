@@ -52,15 +52,15 @@
 
 #define PACKAGE "ncurses"
 #define NCURSES_VERSION "6.3"
-#define NCURSES_PATCHDATE 20220625
+#define NCURSES_PATCHDATE 20220716
 #define SYSTEM_NAME "linux-gnu"
 #if 0
 #include <stdlib.h>
 #endif
 #define HAVE_LONG_FILE_NAMES 1
 #define MIXEDCASE_FILENAMES 1
-#define TERMINFO_DIRS "/system_ext/etc/terminfo"
-#define TERMINFO "/system_ext/etc/terminfo"
+#define TERMINFO_DIRS "/system/etc/terminfo"
+#define TERMINFO "/system/etc/terminfo"
 #define HAVE_BIG_CORE 1
 #define PURE_TERMINFO 1
 #define USE_HOME_TERMINFO 1
@@ -199,7 +199,7 @@
 #define HAVE_FORM_H 1
 #define HAVE_LIBFORM 1
 #define NCURSES_PATHSEP ':'
-#define NCURSES_VERSION_STRING "6.3.20220625"
+#define NCURSES_VERSION_STRING "6.3.20220716"
 #define NCURSES_OSPEED_COMPAT 1
 #define HAVE_CURSES_DATA_BOOLNAMES 1
 
