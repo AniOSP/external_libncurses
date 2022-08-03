@@ -149,6 +149,10 @@
 #define HAVE_FORM_H 0
 #endif
 
+#ifndef HAVE_FPATHCONF
+#define HAVE_FPATHCONF 0
+#endif
+
 #ifndef HAVE_GETBEGX
 #define HAVE_GETBEGX 1
 #endif
@@ -295,6 +299,10 @@
 
 #ifndef HAVE_LONG_FILE_NAMES
 #define HAVE_LONG_FILE_NAMES 0
+#endif
+
+#ifndef HAVE_MATH_FUNCS
+#define HAVE_MATH_FUNCS 0
 #endif
 
 #ifndef HAVE_MATH_H
@@ -723,6 +731,10 @@
 
 #ifndef HAVE_WCTYPE_H
 #define HAVE_WCTYPE_H 0
+#endif
+
+#ifndef HAVE_WMEMCHR
+#define HAVE_WMEMCHR 0
 #endif
 
 #ifndef HAVE_WINSDELLN

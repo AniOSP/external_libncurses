@@ -52,7 +52,7 @@
 
 #define PACKAGE "ncurses"
 #define NCURSES_VERSION "6.3"
-#define NCURSES_PATCHDATE 20220716
+#define NCURSES_PATCHDATE 20220729
 #define SYSTEM_NAME "linux-gnu"
 #if 0
 #include <stdlib.h>
@@ -114,6 +114,7 @@
 #define GCC_NORETURN __attribute__((noreturn))
 #define HAVE_NC_ALLOC_H 1
 #define HAVE_GETTIMEOFDAY 1
+#define HAVE_MATH_FUNCS 1
 #define STDC_HEADERS 1
 #define HAVE_DIRENT_H 1
 #define TIME_WITH_SYS_TIME 1
@@ -142,6 +143,7 @@
 #define HAVE_STRDUP 1
 #define HAVE_SYS_TIME_SELECT 1
 #define SIG_ATOMIC_T volatile sig_atomic_t
+#define HAVE_FPATHCONF 1
 #define HAVE_GETCWD 1
 #define HAVE_GETEGID 1
 #define HAVE_GETEUID 1
@@ -199,7 +201,7 @@
 #define HAVE_FORM_H 1
 #define HAVE_LIBFORM 1
 #define NCURSES_PATHSEP ':'
-#define NCURSES_VERSION_STRING "6.3.20220716"
+#define NCURSES_VERSION_STRING "6.3.20220729"
 #define NCURSES_OSPEED_COMPAT 1
 #define HAVE_CURSES_DATA_BOOLNAMES 1
 
