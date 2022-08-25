@@ -109,6 +109,10 @@
 #define HAVE_CURSES_DATA_TTYTYPE 1
 #endif
 
+#ifndef HAVE_CURSES_TRACE
+#define HAVE_CURSES_TRACE 1
+#endif
+
 #ifndef HAVE_DELSCREEN
 #define HAVE_DELSCREEN 1
 #endif
