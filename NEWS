@@ -26,7 +26,7 @@
 -- sale, use or other dealings in this Software without prior written        --
 -- authorization.                                                            --
 -------------------------------------------------------------------------------
--- $Id: NEWS,v 1.3839 2022/07/28 20:18:34 tom Exp $
+-- $Id: NEWS,v 1.3848 2022/08/20 18:30:07 tom Exp $
 -------------------------------------------------------------------------------
 
 This is a log of changes that ncurses has gone through since Zeyd started
@@ -45,6 +45,27 @@ See the AUTHORS file for the corresponding full names.
 
 Changes through 1.9.9e did not credit all contributions;
 it is not possible to add this information.
+
+20220820
+	+ fix some cppcheck warnings, mostly style, in ncurses and c++
+	  libraries and progs directory.
+	+ add curses_trace to ifdef's for START_TRACE in test/test.priv.h
+	+ update config.guess
+
+20220813
+	+ modify delscreen to more effectively delete all windows on the given
+	  screen.
+	+ amend portability note for delwin in manual page.
+	+ adapt test/test_delwin.c from example by Bill Gray.
+	+ account for prescreen data if freeing leaks in pthread-configuration
+	+ split-out _nc_set_read_thread(), to reduce compiler warnings about
+	  pthread_self(), which may/may not be a weak symbol.
+	+ improve pthread-configuration for test/worm.c
+
+20220806
+	+ amend end_of_stream() to allow for input files without a final
+	  newline.
+	+ check for non-textfiles to tic.
 
 20220729
 	+ fixes to build with dietlibc:
